@@ -13,7 +13,7 @@ public class Page {
 
     public Page(int imageId, int textId) {
         this.imageId = imageId;
-        this.textId = textId;
+        this.textId = textId;//DELETE THIS
         isFinalPage = true;
     }
 
