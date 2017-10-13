@@ -13,7 +13,7 @@ public class Page {
 
     public Page(int imageId, int textId) {
         this.imageId = imageId;
-        this.textId = textId;//DELETE THIS
+        this.textId = textId;
         isFinalPage = true;
     }
 
@@ -54,5 +54,13 @@ public class Page {
 
     public void setChoice2(Choice choice2) {
         this.choice2 = choice2;
+    }
+
+    public boolean isFinalPage() {
+        return isFinalPage;
+    }
+
+    public void setFinalPage(boolean finalPage) {
+        isFinalPage = finalPage;
     }
 }
